@@ -296,3 +296,32 @@ a:hover {
     align-items: center;
     font-size: 30px;
 }
+
+/*RESPONSIVO*/
+
+@media (max-width: 800px){
+    .social-media{
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        margin-top: 0;
+    }
+    .card-container{
+        flex-direction: column;
+    }
+    .container .card-container:nth-child(1),
+    .container .card-container:nth-child(3);{
+        flex-direction: column;
+    }
+
+    .card{
+        height: 250px;
+        width: 250px;
+    }
+    .card-text{
+        width: 90%;
+        margin-top: 2rem;
+    }
+
+}
