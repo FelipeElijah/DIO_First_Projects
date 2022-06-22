@@ -5,9 +5,6 @@ var currentNumber= 0 ;
 
 function decrement(){
 
-    if( currentNumber>=0){
-        document.getElementById("currentNumber").style.color = "red";
-    }
     if(currentNumber >= -4){
         currentNumber = currentNumber - 1 ;
         buttonLess.disabled= false;
@@ -25,4 +22,12 @@ function increment(){
         buttonPlus.disabled= true;
     }
     currentNumberWrapper.innerHTML = currentNumber;
+}
+
+function color(){
+    if( currentNumber<=0){
+        document.getElementById("currentNumber").style.color = "orange";
+    }else {
+        document.getElementById("currentNumber").style.color = "white";
+    }
 }

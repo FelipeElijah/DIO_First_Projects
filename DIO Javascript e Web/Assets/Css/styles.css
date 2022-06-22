@@ -1,7 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
 
+body h1{
+    color: white;
+
+}
+
+body p{
+    color: white;
+
+}
+
 * {
     font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
 }
 
 #currentNumber {
@@ -13,16 +24,16 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(177, 225, 255);
+    background-color: rgb(67, 130, 247);
 }
 
 button {
     height: 40px;
     width: 40px;
-    border-radius: 50%;
-    border: 2px solid lightcoral;
-    background-color: rgb(241, 214, 214);
-    color: lightcoral;
+    border-radius: 25%;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(255, 252, 59);
+    color: rgb(233, 148, 68);
     font-size: 16pt;
     font-weight: 600;
     text-align: center;
