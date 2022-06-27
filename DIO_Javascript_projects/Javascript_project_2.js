@@ -22,4 +22,4 @@ function confereNumeros(n1,n2){
 
 }
 
-console.log(compararValores(0,20));
+console.log(compararValores(5,10));
