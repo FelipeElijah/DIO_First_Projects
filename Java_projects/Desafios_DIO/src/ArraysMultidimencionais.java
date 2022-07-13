@@ -11,7 +11,7 @@ public class ArraysMultidimencionais {
 			}
 		}
 		
-		System.out.println("Matriz: ");
+		System.out.println("Matriz M: ");
 		for( int[] linha: M) {
 			for( int coluna: linha ) {
 				System.out.println(coluna + " ");
